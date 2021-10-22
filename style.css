@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.menu_bar{
+    background-color: lightblue;
+    /* border: 2px solid red; */
+    height: 5rem;
+}
+.formula_bar{
+    height: 2rem;
+    background-color: lightpink;
+}
+.sheets_container{
+    background-color: lightgoldenrodyellow;
+    height: 2.5rem;
+}
+
+/* grid container  csss*/
+.grid_container{
+    height: calc(100vh - 9.5rem);
+    background-color: lightgreen;
+    overflow:  scroll;
+   
+}
+.top_row{
+    display: flex ;
+    position: relative;
+    top: -2rem;
+    left: 2.1rem;
+}
+.top_row .cell{
+    text-align: center;
+     /* these cells are flexed */
+    min-width: 5rem;
+}
+.left_col{
+   text-align: center;
+    width: 2rem;
+    position: relative;
+    top: -1.9rem;
+}
+.cell{
+    /* text-align: center; */
+    border: 0.5px solid gray;
+   text-align: center;
+    height: 2rem;
+    /* min-width: 5rem; */
+}
+.top_left_cell{
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+}
+.row{
+    display: flex;
+}
+.grid .cell{
+   min-width: 5rem;
+}
+.grid_container{
+    position: relative;
+}
+.grid{
+    position: absolute;
+    top: 2rem;
+    left: 2.1rem;
+}
+.formula_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formula_bar>div{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.formula_bar>*{
+    height: 70%;
+}
+.address_input{
+    width: 4rem;
+}
+.formula_input{
+    width: calc(100vw - 8rem);
+}
+
+
+
+
+
+
+
+
+
+
